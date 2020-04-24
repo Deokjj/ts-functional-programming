@@ -13,12 +13,14 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "functional"
     ],
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended",
+        // "plugin:@typescript-eslint/eslint-recommended",
+        // "plugin:@typescript-eslint/recommended",
+        "plugin:functional/recommended"
     ],
     "rules": {
     }
